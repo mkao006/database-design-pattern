@@ -1,0 +1,24 @@
+default:
+    mssql:
+        server: 'localhost'
+        database: 'dw_prod'
+    redshift:
+        server: 'localhost'
+        database: 'dw_prod'
+
+
+dev:
+    mssql:
+        port: 1434
+    redshift:
+        port: 5440
+    postgres_sandbox:
+        database: 'sandbox'
+        host: 'localhost'
+        port: 5432
+
+prod:
+    mssql:
+        port: 1433
+    redshift:
+        port: 5439
